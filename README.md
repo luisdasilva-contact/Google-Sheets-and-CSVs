@@ -1,5 +1,5 @@
 # Google Sheets and CSV Modules
-A repository for Python modules to manipulate Google Sheets via Google Drive, and CSVs downloaded from Sheets. 
+A repository for Python modules to manipulate Google Sheets via Google Drive, and CSVs downloaded from Sheets. Note that functions that expect a file take a Google Drive file, while those expecting a spreadsheet take a Google Sheets file.
 
 ### Manipulate Sheets
 manipulate.sheets.py contains functions to perform the following:
