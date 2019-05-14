@@ -12,6 +12,7 @@ def download_CSV(spreadsheet):
     CSV_file = io.FileIO(sheet_to_drive['properties']['title'] + ".csv", 'wb')
     downloader = MediaIoBaseDownload(CSV_file, request)
     done = False
+    
     while done is False:
         status, done = downloader.next_chunk()
 
