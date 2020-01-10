@@ -24,7 +24,6 @@ def already_existing(spreadsheet, destination_Drive_folder_ID):
                                                                fields='name').execute()['name'] +
                                                           "' and trashed=False").execute()['files'])) > 0:
         is_existing = True
-
     return is_existing
 
 
@@ -75,9 +74,3 @@ def header_title_check(file, headers_list):
             print("Differing header found in " + spreadsheet['properties']['title'] + "!\n"
                   + headers_list[template_value] + " was found in the expected place of " +
                   str(get_spreadsheet_header[0][template_value]) + " from your headers list.")
-
-
-
-
-
-
