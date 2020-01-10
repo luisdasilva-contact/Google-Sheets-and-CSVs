@@ -30,12 +30,3 @@ def get_sheets(folder_id):
 
 drive_service = build('drive', 'v3', credentials=get_credentials())
 sheets_service = build('sheets', 'v4', credentials=get_credentials())
-
-
-
-
-
-
-
-
-
