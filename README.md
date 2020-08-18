@@ -4,8 +4,8 @@ A repository for Python modules to manipulate Google Sheets via Google Drive, an
 ### Manipulate Sheets
 manipulate.sheets.py contains functions to perform the following:
 * Duplicate spreadsheets
-* Check if a spreadsheet has already been duplicated to a given folder
-* Move a spreadsheet to a new file
+* Check if a folder contains any spreadsheets
+* Move a spreadsheet to a new folder
 * Remove the 'Copy of' prefix assigned to duplicated spreadsheets
 * Delete specificly-titled sheets within spreadsheets
 * Check if a spreadsheet matches a user-defined header.
